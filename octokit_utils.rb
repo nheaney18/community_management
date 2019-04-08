@@ -37,8 +37,29 @@ class OctokitUtils
     'vcsrepo',
     'vsphere',
     'websphere_application_server',
+    'docker',
+    'helm',
+    'kubernetes',
+    'rook',
+    'amazon_aws',
+    'azure_arm',
+    'acl',
+    'chocolatey',
+    'dsc',
+    'dsc_lite',
+    'iis',
+    'powershell',
+    'reboot',
+    'registry',
+    'scheduled_task',
+    'sqlserver',
+    'wsus_client',
+    'device_manager',
+    'cisco_ios',
+    'panos',
+    'cisconexus',
+    'netscaler',
   ]
-
   SUPPORTED_MODULES_REGEX = "^(puppetlabs-(#{SUPPORTED_MODULES.join('|')})|modulesync_configs)$"
 
   def initialize(access_token)
